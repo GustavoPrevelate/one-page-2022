@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #FF8A00;
+    --secundary-color: #FF0000;
+    --icon-color: #252525;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-areas: "content";
+}
+section{
+    height: 100vh;
+}
+header{
+    display: flex;
+    grid-area: content;
+    font-family: Deutsch Gothic;
+    z-index: 121;   
+    width:100%;
+    background-color: var(--icon-color);
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    height: 2802px;
+    width:100%;
+    background-color: aqua;
+}
+footer{
+    height: 934px;
+    width:100%;
+    background-color: blueviolet;
+}
+
+
+@font-face{
+    font-family: [Deutsch Gothic];
+    src: url(../deutsch_gothic/Deutsch.ttf);
+}
