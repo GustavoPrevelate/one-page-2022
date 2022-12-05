@@ -2,7 +2,7 @@
     
     background-image: url(../img/inicio.jpg);
 }
-div.the_seven_titulo{
+.the_seven_titulo{
     transform: translate(215%, 40%);
     display: flex;
     height: 500px;
@@ -19,7 +19,7 @@ div.the_seven_titulo{
     padding-top: 16px;
     padding-left: 16px;     
 }
-.theseven{
+.description__text{
     transform: translate(280%, -55%);
     display: flex;
     height: 400px;
