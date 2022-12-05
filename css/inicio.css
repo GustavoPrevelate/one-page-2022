@@ -1,7 +1,8 @@
 .NanatsuNoTaizai{
-    
+    height: 900px;
     background-image: url(../img/inicio.jpg);
 }
+
 .the_seven_titulo{
     transform: translate(215%, 40%);
     display: flex;

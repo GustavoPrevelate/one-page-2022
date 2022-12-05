@@ -15,6 +15,7 @@ section{
 }
 header{
     display: flex;
+    height: 165px;
     font-family: Deutsch Gothic;
     text-shadow: 
                -2px -3px 2px #000000, 
@@ -28,7 +29,7 @@ header{
 }
 main{
     
-    height: 3736px;
+    height: 3588px;
     width:100%;
     background-color: aqua;
 }
