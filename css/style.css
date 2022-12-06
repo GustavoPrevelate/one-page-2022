@@ -36,7 +36,16 @@ main{
 footer{
     height: 138px;
     width:100%;
-    background-color: blueviolet;
+    background-color: #252525;
+    color: var(--primary-color);
+    text-shadow: 
+    -2px -3px 2px #000000, 
+    -2px 3px 2px #000000,      
+    3px -3px 2px #000000,    
+    4px 0px 2px #000000;
+    font-size: 32px;
+    padding-left: 550px;
+    padding-top: 50px;
 }
 
 
