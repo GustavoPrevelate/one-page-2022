@@ -29,12 +29,12 @@ header{
 }
 main{
     
-    height: 3588px;
+    
     width:100%;
     background-color: aqua;
 }
 footer{
-    height: 934px;
+    height: 138px;
     width:100%;
     background-color: blueviolet;
 }
