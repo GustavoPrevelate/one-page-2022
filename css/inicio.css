@@ -1,10 +1,13 @@
 .NanatsuNoTaizai{
-    height: 900px;
+    height: 1080px;
+    width: 100%;
     background-image: url(../img/inicio.jpg);
 }
-
+.the_seven{
+    height: 1080px;
+}
 .the_seven_titulo{
-    transform: translate(215%, 40%);
+    transform: translate(215%, 70%);
     display: flex;
     height: 500px;
     width: 500px;
@@ -21,7 +24,7 @@
     padding-left: 16px;     
 }
 .description__text{
-    transform: translate(280%, -55%);
+    transform: translate(280%, -15%);
     display: flex;
     height: 400px;
     width: 400px;

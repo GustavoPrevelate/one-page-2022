@@ -1,8 +1,10 @@
 .História{
     height: 1080px;
+    width: 100%;
 }
 .HistoriaNanatsu{
     height: 1080px;
+    width: 100%;
     background-image: url(../img/historia.jpg);
     font-family: Deutsch Gothic;
     

@@ -3,35 +3,43 @@
     --secundary-color: #FF0000;
     --icon-color: #242424;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    display: grid;
-    grid-template-areas: "content";
+    
 }
 section{
     height: 100vh;
 }
 header{
-    display: flex;
+    position: fixed;
+    
+    z-index: 10;
     height: 165px;
+    width:100%;
     font-family: Deutsch Gothic;
     text-shadow: 
                -2px -3px 2px #000000, 
                -2px 3px 2px #000000,      
                 3px -3px 2px #000000,    
-                4px 0px 2px #000000;  
-    width:100%;
-    background-color: var(--icon-color);
+                4px 0px 2px #000000;
+    display: flex;
+    background-color: #101010c0;
+    
     justify-content: space-between;
     align-items: center;
+    
+}
+li.bars{
+    visibility: hidden;
 }
 main{
-    
-    
+
     width:100%;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer{
     height: 138px;
@@ -46,10 +54,18 @@ footer{
     font-size: 32px;
     padding-left: 550px;
     padding-top: 50px;
+    display: flex ;
 }
 
 
 @font-face{
     font-family: [Deutsch Gothic];
     src: url(../deutsch_gothic/Deutsch.ttf);
+}
+
+@media (max-width: 640px){
+    header{
+        height: 165px;
+        width: 375px;
+    }
 }

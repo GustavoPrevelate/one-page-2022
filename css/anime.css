@@ -1,7 +1,11 @@
 .Anime{
-    height: 942px;
+    height: 825px;
+    width: 100%;
     background-color: blue;
     background-image: url(../img/footer.jpg);
+}
+.AnimeNanatsu{
+    height: 825px;
 }
 .anime_titulo{
     color: var(--primary-color);
