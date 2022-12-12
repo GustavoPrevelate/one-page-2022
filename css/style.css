@@ -9,6 +9,7 @@ html{
 body{
     display: grid;
     grid-template-areas: "content";
+    background-color: #252525;
 }
 section{
     height: 100vh;
@@ -314,20 +315,21 @@ footer{
         height: 1080px;
     }
     footer{
-        
-        grid-area: content;
-        height: 138px;
         transform: translate(-100%, 100%);
-        justify-content: center;
+        grid-area: content;
+        place-items: center;
+        justify-items: center;
         width: 640px;
-        font-size: 2rem;
+        padding-left: 30px;
+        padding-top: 0%;
+        font-size: 1.3rem;
+        
 
     }
     p.copyright{
-        transform: translate(-300%, 00%);
+        
         grid-area: content;
-        height: 138px;
-        width: 640px;
+        
         
         
         
